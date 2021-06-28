@@ -106,6 +106,22 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     },
   });
 
+/*==================== CERTIFICATES SWIPER  ====================*/
+let swiperCertificates = new Swiper(".certificates__container", {
+    cssMode: true,
+    loop: true,
+    //effect: 'slide',
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
     loop: true,
